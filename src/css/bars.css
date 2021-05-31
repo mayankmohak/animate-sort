@@ -1,0 +1,17 @@
+.bar{
+  /* height: 50px; */
+  width : 10rem;
+  background-color: rgb(196, 196, 196);
+  margin-left: .2rem;
+  margin-right: .2rem;
+  margin-top: auto;
+  font-size: 1rem;
+}
+
+.active-bar{
+  background-color: rgb(153, 223, 173) !important;
+}
+
+.sorted{
+  background-color: rgb(78, 214, 117) !important;
+}

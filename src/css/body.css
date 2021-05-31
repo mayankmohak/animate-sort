@@ -1,0 +1,46 @@
+.bar-box{
+    /* margin: auto; */ 
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: .5rem;
+    border-color: aqua;
+    margin-bottom: 64px;/* footer se chipnewala area dikhana ke liye*/
+}
+.bar-box .horizintal-bars{
+    width: 100%;
+    height: 520px;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    border-style: solid;
+    border-width: .2rem;
+    text-align: center;
+    display: flex;
+    overflow: auto;
+}
+.property-box{
+    width: auto;
+    border-color: aqua;
+    height: 560px;
+    border-style: solid;
+    border-width: .2rem;
+}
+.property-box button{
+    margin-top: 4px;
+}
+.property-box input{
+    width : 4.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .property-box{
+        height: auto;
+    }
+}
+
+.message{
+    width: 100%;
+    color: rgb(243, 10, 10);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
