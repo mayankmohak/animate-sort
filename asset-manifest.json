@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/animate-sort/static/css/main.51d98ed0.chunk.css",
-    "main.js": "/animate-sort/static/js/main.48e21e08.chunk.js",
-    "main.js.map": "/animate-sort/static/js/main.48e21e08.chunk.js.map",
+    "main.css": "/animate-sort/static/css/main.42125fd7.chunk.css",
+    "main.js": "/animate-sort/static/js/main.b489e327.chunk.js",
+    "main.js.map": "/animate-sort/static/js/main.b489e327.chunk.js.map",
     "runtime-main.js": "/animate-sort/static/js/runtime-main.b2ad256d.js",
     "runtime-main.js.map": "/animate-sort/static/js/runtime-main.b2ad256d.js.map",
     "static/css/2.ef9168ec.chunk.css": "/animate-sort/static/css/2.ef9168ec.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.4951f49c.chunk.js.map": "/animate-sort/static/js/2.4951f49c.chunk.js.map",
     "index.html": "/animate-sort/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/animate-sort/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.51d98ed0.chunk.css.map": "/animate-sort/static/css/main.51d98ed0.chunk.css.map",
+    "static/css/main.42125fd7.chunk.css.map": "/animate-sort/static/css/main.42125fd7.chunk.css.map",
     "static/js/2.4951f49c.chunk.js.LICENSE.txt": "/animate-sort/static/js/2.4951f49c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b2ad256d.js",
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.4951f49c.chunk.js",
-    "static/css/main.51d98ed0.chunk.css",
-    "static/js/main.48e21e08.chunk.js"
+    "static/css/main.42125fd7.chunk.css",
+    "static/js/main.b489e327.chunk.js"
   ]
 }
