@@ -40,7 +40,7 @@ function Body () {
                             <Bars height="60"/>
                             <Bars height="50"/>
                         </div>
-                        <div className="message">this is message</div>
+                        <div className="message">Currently support Bubble Sort only.</div>
                     </div>
                 </div>
             </div>
