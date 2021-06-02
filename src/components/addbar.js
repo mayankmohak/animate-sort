@@ -41,7 +41,7 @@ function multipleBars(){
 
   for(let i=0;i<num_bar;i++){
     let randomNumber = Number(Math.floor(Math.random() * (100)));
-    // console.log(randomNumber);
+    randomNumber = randomNumber < 5 ? 5 : randomNumber;
     oneBar(randomNumber);
   }
 }
