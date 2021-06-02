@@ -14,18 +14,22 @@ function Body () {
             <div className="container"><br></br>
                 <div className="row inline-divs">
                     <div className="col-md-3 property-box shadow-lg">
-                        <label>Height : </label>
-                        <input type="number" id="bar-size" className="form-control" width="10%" max="500"></input>
-                        <lable>Add : </lable>
-                        <button onClick={addBar.oneBar}> + </button><br></br>
-                        <lable>Remove : </lable>
-                        <button onClick={removeBar.oneBar}> - </button><br></br>
-                        <lable>Sort : </lable>
-                        <button onClick={sortingAlgorithms.bubbleSort}> Sort </button><br></br>
-                        <span>Genrate Random Array : </span>
-                        <label>Number of Bars : </label>
-                        <input type="number" id="num-bar" placeholder="xx" className="form-control" max="100"></input>
-                        <button onClick={addBar.multipleBars}> Generate </button><br></br>
+                        
+                        <h5>Height : </h5>
+                        <button  className="d-inline-block sbtn  ripple-btn rounded-btn black-btn" onClick={addBar.oneBar}><i class="fas fa-plus"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input className="d-inline-block" type="number" id="bar-size" width="10%" height="100" max="500"></input>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button className="sbtn  ripple-btn rounded-btn black-btn" onClick={removeBar.oneBar}><i class="fas fa-minus"></i></button><br></br>
+                        
+                        <hr></hr>
+
+                        <h5 className="d-inline-block">Sort : </h5> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <button  className="d-inline-block sbtn  neon-border-btn black-btn" onClick={sortingAlgorithms.bubbleSort}> Sort </button><br></br>
+                        
+                        <hr></hr>
+
+                        <h5>Genrate Random Array Length : </h5>
+                        <input type="number" id="num-bar" placeholder="xx" max="100"></input>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button className="sbtn  neon-border-btn black-btn" onClick={addBar.multipleBars}> Generate </button><br></br>
                     </div>
                     <div className="col-md-9 bar-box">
                         <div id="bar-container" className="horizintal-bars">

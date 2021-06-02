@@ -1,9 +1,9 @@
 .bar-box{
     /* margin: auto; */ 
-    border-style: solid;
-    border-radius: 1rem;
+    /* border-style: solid; */
+    /* border-radius: 1rem; */
     border-width: .5rem;
-    border-color: aqua;
+    border-color: white;
     margin-bottom: 64px;/* footer se chipnewala area dikhana ke liye*/
 }
 .bar-box .horizintal-bars{
@@ -19,13 +19,14 @@
 }
 .property-box{
     width: auto;
-    border-color: aqua;
+    border-color: white;
     height: 560px;
     border-style: solid;
     border-width: .2rem;
 }
 .property-box button{
-    margin-top: 4px;
+    /* margin-top: 4px; */
+    /* height: 1rem; */
 }
 .property-box input{
     width : 4.2rem;
@@ -39,8 +40,17 @@
 
 .message{
     width: 100%;
-    color: rgb(243, 10, 10);
+    color: rgb(31, 35, 33);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+input[type="number"]{
+    height: 50px;
+    font-size: 45px;
+    vertical-align: bottom;
+}
+.bar-container{
+    border-color: azure;
 }

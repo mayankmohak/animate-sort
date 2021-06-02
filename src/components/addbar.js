@@ -20,7 +20,7 @@ function oneBar( size ){
   let storedheight = inputheight*5;//height is 5 times of the input value
 
   const element = document.createElement('div');
-  element.setAttribute("class", "bar");
+  element.setAttribute("class", "bar rounded-top shadow-lg");
   element.setAttribute("style", "height: "+storedheight+"px;");
   element.innerHTML = inputheight;
   document.getElementById('bar-container').appendChild(element);
