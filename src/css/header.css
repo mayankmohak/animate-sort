@@ -15,4 +15,5 @@ header {
   font-family: 'Philosopher';
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  cursor: pointer;
 }

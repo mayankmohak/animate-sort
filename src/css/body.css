@@ -25,11 +25,15 @@
     border-width: .2rem;
 }
 .property-box button{
-    /* margin-top: 4px; */
-    /* height: 1rem; */
+    height: 2.5rem;
+    font-size: 1rem;
+    padding-top: 5px;
 }
 .property-box input{
-    width : 4.2rem;
+    width : 5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    vertical-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -46,11 +50,6 @@
     letter-spacing: 2px;
 }
 
-input[type="number"]{
-    height: 50px;
-    font-size: 45px;
-    vertical-align: bottom;
-}
 .bar-container{
     border-color: azure;
 }
