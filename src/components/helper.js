@@ -1,5 +1,18 @@
 
 const pauseIt = async(time) => {
+  time = document.getElementById('time').value;
+  if(time==="1x"){
+    time=Number(1000);
+  }
+  if(time==="2x"){
+    time=Number(700);
+  }
+  if(time==="3x"){
+    time=Number(400);
+  }
+  if(time==="4x"){
+    time=Number(100);
+  }
   return new Promise(resolve => {
     setTimeout(() => {
       resolve();
@@ -24,7 +37,7 @@ const swapDiv = async ( id1, id2 ) => {
 
 const markActive = async(element) => {
   document.getElementById(element).setAttribute("class","bar rounded-top shadow-lg active-bar");
-  await pauseIt(500);
+  await pauseIt();
 }
 
 const unmarkActive = async (element) => {
@@ -38,7 +51,7 @@ const markSorted = (element) => {
 
 const markChecking = async (element) => {
   document.getElementById(element).setAttribute("class","bar rounded-top shadow-lg check");
-  await pauseIt(500);
+  await pauseIt();
 }
 
 const helperFunctions = {

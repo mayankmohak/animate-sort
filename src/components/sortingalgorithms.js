@@ -1,10 +1,8 @@
 import printMessage from "./printmessgae.js"
-// import swapDiv from "./swapdivs.js"
 import helperFunctions from './helper.js'
 
-function makeArray(){
+const makeArray = () => {
   const element = document.getElementById('bar-container').childNodes;
-  // console.log(element);
   let arr = [];
   for(let i = 0 ;i<element.length;i++){
     element[i].setAttribute("id",i);
