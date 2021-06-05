@@ -1,7 +1,10 @@
 import React from "react"
+import Display from "./displayarea.jsx"
+
+// Style Sheets
 import "../css/body.css"
 import "../css/bars.css"
-import Display from "./displayarea.jsx"
+
 
 // Dependencies
 import addBar from "./addbar.js"
@@ -9,7 +12,7 @@ import removeBar  from "./deletebars.js"
 import sortingAlgorithms from "./sortingalgorithms.js"
 
 
-//components
+// Buttons
 const algoList = ["Bubble Sort"] // "Insertion Sort" "Selection Sort" "Merge Sort"
 const algoListOption = algoList.map((algo) => <option key={algo}>{algo}</option>)
 const selectInputFormatted = (
