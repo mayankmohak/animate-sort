@@ -79,6 +79,14 @@ function Body () {
                         <br />
 
                         <hr />
+
+                        <div className="d-inline-block">
+                            <h5>Identifiers : </h5>
+                            <p className="d-inline-block">&nbsp;Unsorted : &nbsp;</p><div className="d-inline-block bar-color colorbox"></div>
+                            <p className="d-inline-block">&nbsp;Checking : &nbsp;</p><div className="d-inline-block check colorbox"></div> 
+                            <p className="d-inline-block">&nbsp;Swapping : &nbsp;</p><div className="d-inline-block active-bar colorbox"></div> 
+                            <p className="d-inline-block">&nbsp;Sorted : &nbsp;</p><div className="d-inline-block sorted colorbox"></div> 
+                        </div>
                     </div>
                     <Display />
                 </div>

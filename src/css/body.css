@@ -1,3 +1,10 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .bar-box{
     /* margin: auto; */ 
     /* border-style: solid; */
@@ -55,4 +62,9 @@
 
 .bar-container{
     border-color: azure;
+}
+
+.colorbox{
+    height: 15px;
+    width: 15px;
 }

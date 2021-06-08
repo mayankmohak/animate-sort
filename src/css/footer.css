@@ -6,7 +6,9 @@ footer {
   /* position: fixed; */
   left: 0;
   bottom: 0;
+  height: 100px;
 }
+
 footer h5 img {
   height : 30px;
 }

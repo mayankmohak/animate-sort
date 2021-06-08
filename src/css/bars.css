@@ -8,6 +8,10 @@
   font-size: 1rem;
 }
 
+.bar-color{
+  background-color: rgb(196, 196, 196);
+}
+
 .active-bar{
   background-color: rgb(153, 223, 173) !important;
 }
