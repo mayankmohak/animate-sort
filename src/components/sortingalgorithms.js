@@ -1,6 +1,8 @@
 import printMessage from "./printmessgae.js"
 import helperFunctions from './helper.js'
 
+let stop = true;
+
 const makeArray = () => {
   const element = document.getElementById('bar-container').childNodes;
   let arr = [];
@@ -13,13 +15,34 @@ const makeArray = () => {
   return arr;
 }
 
-let stop = true;
-const bubbleSort = async () =>{
+const sort = async () => {
+  let array = makeArray();
+
+  const algo = document.getElementById("algo").value;
+
+  document.getElementById('sort-button').innerHTML="Stop";
+
+  //disable all other buttons
+  const buttons = document.getElementsByTagName("Button");
+  for(let i=0;i<buttons.length;i++){
+    if(buttons[i].id !== "sort-button")
+      buttons[i].setAttribute("style", "pointer-events: none");
+  }
+
+  if(algo === "Bubble Sort")
+    await bubbleSort(array);
+  // else if(algo === "Insertion Sort")
+  //   insertionSort();
+
+  for(let i=0;i<buttons.length;i++){
+    if(buttons[i].id !== "sort-button")
+      buttons[i].setAttribute("style", "");
+  }
+}
+
+
+const bubbleSort = async (arr) =>{
   stop = !stop;
-
-  document.getElementById('sort-button').innerHTML="stop";
-
-  let arr = makeArray();
   
   printMessage("Bubble sort Runninig...");
   var i, j;
@@ -59,10 +82,11 @@ const bubbleSort = async () =>{
   document.getElementById('sort-button').innerHTML="Sorted";
 
   stop = !stop;
+
 }
 
 const algos = {
-  bubbleSort
+  sort
 };
 
 export default algos;

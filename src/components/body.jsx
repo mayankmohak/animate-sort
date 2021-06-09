@@ -16,7 +16,7 @@ import sortingAlgorithms from "./sortingalgorithms.js"
 const algoList = ["Bubble Sort"] // "Insertion Sort" "Selection Sort" "Merge Sort"
 const algoListOption = algoList.map((algo) => <option key={algo}>{algo}</option>)
 const selectInputFormatted = (
-    <select>
+    <select id="algo">
         {algoListOption}
     </select>
 )
@@ -40,6 +40,7 @@ function Body () {
                         
                         <h5>Add Number : </h5>
                             <button
+                              id = "addbar"
                               className = "d-inline-block sbtn  ripple-btn rounded-btn black-btn"
                               onClick={addBar.oneBar} >
                                 {plus}
@@ -48,6 +49,7 @@ function Body () {
                             <input className="d-inline-block" type="number" id="bar-size" width="10%" height="100" max="500"></input>&nbsp;&nbsp;&nbsp;&nbsp;
                             
                             <button
+                              id = "removebar"
                               className = "d-inline-block sbtn  ripple-btn rounded-btn black-btn"
                               onClick = {removeBar.oneBar} >
                                 {minus}
@@ -61,7 +63,7 @@ function Body () {
                         <button
                           id = 'sort-button'
                           className = "d-inline-block sbtn neon-border-btn black-btn"
-                          onClick = {sortingAlgorithms.bubbleSort} >
+                          onClick = {sortingAlgorithms.sort} >
                             Sort
                         </button>
                         

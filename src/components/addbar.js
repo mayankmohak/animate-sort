@@ -44,6 +44,7 @@ function multipleBars(){
     randomNumber = randomNumber < 5 ? 5 : randomNumber;
     oneBar(randomNumber);
   }
+  document.getElementById("sort-button").innerHTML = "Sort";
 }
 
 const divscreator = {
