@@ -1,17 +1,17 @@
 
-const pauseIt = async(time) => {
-  time = document.getElementById('time').value;
-  if(time==="1x"){
-    time=Number(1000);
+const pauseIt = async () => {
+  let time = document.getElementById('time').value;
+  if (time === "1x") {
+    time = Number(1000);
   }
-  if(time==="2x"){
-    time=Number(700);
+  if (time === "2x") {
+    time = Number(700);
   }
-  if(time==="3x"){
-    time=Number(400);
+  if (time === "3x") {
+    time = Number(400);
   }
-  if(time==="4x"){
-    time=Number(100);
+  if (time === "4x") {
+    time = Number(100);
   }
   return new Promise(resolve => {
     setTimeout(() => {
@@ -20,7 +20,7 @@ const pauseIt = async(time) => {
   });
 }
 
-const swapDiv = async ( id1, id2 ) => {
+const swapDiv = async (id1, id2) => {
   const elem1 = document.getElementById(id1);
   const elem2 = document.getElementById(id2);
   const style1 = elem1.getAttribute("style");
@@ -35,22 +35,22 @@ const swapDiv = async ( id1, id2 ) => {
 
 }
 
-const markActive = async(element) => {
-  document.getElementById(element).setAttribute("class","bar rounded-top shadow-lg active-bar");
+const markActive = async (element) => {
+  document.getElementById(element).setAttribute("class", "bar rounded-top shadow-lg active-bar");
   await pauseIt();
 }
 
 const unmarkActive = async (element) => {
   // await pauseIt(500);
-  document.getElementById(element).setAttribute("class","bar rounded-top shadow-lg");
+  document.getElementById(element).setAttribute("class", "bar rounded-top shadow-lg");
 }
 
 const markSorted = (element) => {
-  document.getElementById(element).setAttribute("class","bar rounded-top shadow-lg sorted");
+  document.getElementById(element).setAttribute("class", "bar rounded-top shadow-lg sorted");
 }
 
 const markChecking = async (element) => {
-  document.getElementById(element).setAttribute("class","bar rounded-top shadow-lg check");
+  document.getElementById(element).setAttribute("class", "bar rounded-top shadow-lg check");
   await pauseIt();
 }
 
