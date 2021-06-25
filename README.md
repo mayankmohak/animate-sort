@@ -1,5 +1,5 @@
 # Getting Started with Animate Sort
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Animate Sort is a simple React App that sorts provided numbers or randomly generated numbers and shows an animation of the sorting process.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). **Animate Sort** is a simple React App that sorts provided numbers or randomly generated numbers and shows an animation of the sorting process.
 
 ## Aim
 The main objective of this app is to animate the sorting of the entered numbers or randomly generated numbers by the selected sorting algorithm.
@@ -7,30 +7,30 @@ The main objective of this app is to animate the sorting of the entered numbers 
 ## Available Scripts
 To get started with **Animate Sort**, the basic CLI commands of **React** required are as follows:
 
-###Installation
+### Install
 1. To install dependencies, enter the `npm install `command in the project directory.
 This CLI command installs dependencies and calls the `install` from the *package.json, scripts* field.
 2. See the section about [npm-install](https://docs.npmjs.com/cli/v7/commands/npm-install) for more information.
 
-###Start Package
+### Start
 
 1. To start a package, enter the ``npm start`` command in the project directory.
 This CLI command starts a package and runs the app in the development mode.
 2. To view the running application, go to the URL [http://localhost:3000](http://localhost:3000) in the browser.
 The page will reload if you make edits. You can also see any lint errors in the console.
 
-###Test Package
+### Test
 1. To test a package, enter the ``npm test`` command in the project directory.
 This CLI command launches the test runner in the interactive watch mode.
 2. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-###Build Package
+### Build
 
 1. To build the app for production to the `build` folder, enter the `npm run build` command.
 It correctly bundles React in production mode and optimizes the build for the best performance. This is the plumbing command called by `npm link` and `npm install`. This CLI command runs the *build* field from the *package.json, scripts* field. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 2. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Remove Dependency
+### Eject
 
 1. To remove the single build dependency from your project, enter the `npm run eject` command.
 This CLI command enables to edit the configuration and script files. With this CLI command, either upgrade or downgrade the dependencies version on the ejected *package.json* file. This command will remove the single build dependency from your project. If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
