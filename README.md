@@ -42,6 +42,8 @@ At this point you’re on your own. You don’t have to ever use `eject`. The cu
 
 ## Learn More
 
+### React Basics
+
 - To get started with React, refer [React documentation](https://reactjs.org/) website.
 - To create a basic React App, refer [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) website.
 
@@ -72,5 +74,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
