@@ -33,8 +33,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### Eject
 
 1. To remove the single build dependency from your project, enter the `npm run eject` command.
-This CLI command enables to edit the configuration and script files. With this CLI command, either upgrade or downgrade the dependencies version on the ejected *package.json* file. This command will remove the single build dependency from your project. If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**.
+This CLI command enables to edit the configuration and script files. With this CLI command, either upgrade or downgrade the dependencies version on the ejected *package.json* file. This command will remove the single build dependency from your project. If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. <br/>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**. <br/>
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them.
 
 2. To tweak the copied scripts, use all of the commands work correct except `eject`.
