@@ -1,71 +1,44 @@
-# Getting Started with Create React App
+# Getting Started with Animate Sort
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). **Animate Sort** is a simple React App that sorts provided numbers or randomly generated numbers and shows an animation of the sorting process.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aim
+The main objective of this app is to animate the sorting of the entered numbers or randomly generated numbers by the selected sorting algorithm.
 
 ## Available Scripts
+To get started with **Animate Sort**, the basic CLI commands of **React** required are as follows:
 
-In the project directory, you can run:
+### Install
+1. To install dependencies, enter the `npm install `command in the project directory.
+This CLI command installs dependencies and calls the `install` from the *package.json, scripts* field.
+2. See the section about [npm-install](https://docs.npmjs.com/cli/v7/commands/npm-install) for more information.
 
-### `npm start`
+### Start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. To start a package, enter the ``npm start`` command in the project directory.
+This CLI command starts a package and runs the app in development mode.
+2. To view the running application, go to the URL [http://localhost:3000](http://localhost:3000) in the browser.
+The page will reload if you make edits. You can also see any lint errors in the console.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Test
+1. To test a package, enter the ``npm test`` command in the project directory.
+This CLI command launches the test runner in the interactive watch mode.
+2. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm test`
+### Build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. To build the app for production to the `build` folder, enter the `npm run build` command.
+This command correctly bundles React in production mode and optimizes the build for the best performance. This command is the plumbing command called by `npm link` and `npm install`. This CLI command runs the *build* field from the *package.json, scripts* field. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+2. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run build`
+### Eject
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. To remove the single build dependency from your project, enter the `npm run eject` command.
+This CLI command enables editing the configuration and script files. With this CLI command, either upgrade or downgrade the dependencies version on the ejected *package.json* file. This command will remove the single build dependency from your project.Instead, this command copies all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) into the project with complete access.<br/>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**. <br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. To tweak the copied scripts, use all of the commands that work correctly except `eject`.
+At this point, you’re on your own. You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# animate-sort
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
